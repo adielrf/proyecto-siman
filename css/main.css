@@ -171,3 +171,11 @@ footer {
     padding: 1.5rem;
     margin-top: 2rem;
 }
+
+.tecnologia{
+    background: url('https://res.cloudinary.com/dqibsyfye/image/upload/v1749413950/diamundialdelreciclaje_mzfyi1.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+
