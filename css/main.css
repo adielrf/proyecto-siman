@@ -190,5 +190,36 @@ footer {
     height: 300px;
 }
 
+.container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+.sucursal {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            box-sizing: border-box;
+            transition: transform 0.3s;
+        }
+
+.sucursal:hover {
+            transform: scale(1.05);
+        }
+
+.sucursal h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+.sucursal p {
+            color: #555;
+            margin: 5px 0;
+        }
 
 
